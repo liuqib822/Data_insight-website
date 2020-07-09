@@ -775,6 +775,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  width:100%;
 }
 
 .row:before,
@@ -5431,7 +5432,7 @@ a.list-group-item:focus {
 }
 
 .panel-default {
-  
+
 }
 
 .panel-default > .panel-heading {
