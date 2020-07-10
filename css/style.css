@@ -343,59 +343,75 @@ nav.sticky ul li a:before { content: '' }
   display: block；
 }
 
-.description{
-  width: 90%;
+#banner .divtitle{
   position:absolute;
-  margin-top: 50px;
-  z-index:1;
-  left:10%;
-  top:10%;
-  bottom: 10%
+  z-index:10;
+  top:60px;
+  width:100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 21px;
+  display: block;
+  line-height: 46px;
+  height: 80%;
+}
+#banner .divtitle font{
+  letter-spacing: 8px;
+  text-indent: 8px;
+  display:inline-block;
+  font-size: 34px;
 }
 
-.footer_title{
+#banner .footer_title{
+  margin-top: 3%;               /*这个会拉动下面的高度*/
+}
+
+#banner .iconfont{
+  font-size: 25px;
   color: white;
-  font-size: 35px;
-  margin: 0 auto;
-  border-bottom-style: solid;
-  /* border: black; */
+  float: left;;
+  z-index: 15;
+  margin-left: 33%;
 }
 
-.footer_word {
-  color: white;
-  font-size: 20px;
+#banner .footer_word ul{
+  text-align: center;
+  margin-top: 30%;
 }
 
-.description ul{
+#banner .footer_word li{
+  text-align: center;
+  display: block;
   float: left;
-  margin-left: -5%;
-  margin-top: 5%;
-  width: 85%;
-  position:absolute;
+  /* margin: 60px; */
+  /* margin-top: 7%; */
+  margin-left: 11%;
 }
 
-.footer_word li{
-  display: inline-block;
-  margin: 5%;
-}
-
-#word1{
-  margin-left: 25%;
-}
-
-
-.footer-en{
-  /* color: white; */
+#banner .footer_word li font{
   font-size: 15px;
 }
 
-/* .banner_pic pic1{
-margin:0;
-padding: 0;
-width: 1500px;
-height: auto;
-} */
+#banner .magic1 font{font-size: 22px;}
+#banner .magic2 font{font-size: 22px;}
+#banner .magic3 font{font-size: 22px;}
+#banner .magic4 font{font-size: 22px;}
+#banner .magic5 font{font-size: 22px;}
+#banner .magic6 font{font-size: 22px;}
 
+#banner .magic1{  position: absolute;  margin-top: -25%;  margin-left: 20%; visibility: hidden;}
+#banner .magic2{  position: absolute;  margin-top: -25%;  margin-left: 20%; visibility: hidden;}
+#banner .magic3{  position: absolute;  margin-top: -25%;  margin-left: 20%; visibility: hidden;}
+#banner .magic4{  position: absolute;  margin-top: -25%;  margin-left: 20%; visibility: hidden;}
+#banner .magic5{  position: absolute;  margin-top: -25%;  margin-left: 20%; visibility: hidden;}
+#banner .magic6{  position: absolute;  margin-top: -25%;  margin-left: 20%; visibility: hidden;}
+
+#banner .footer_word #banner_word1:hover + .magic1{visibility: visible;}
+#banner .footer_word #banner_word2:hover + .magic2{visibility: visible;}
+#banner .footer_word #banner_word3:hover + .magic3{visibility: visible;}
+#banner .footer_word #banner_word4:hover + .magic4{visibility: visible;}
+#banner .footer_word #banner_word5:hover + .magic5{visibility: visible;}
+#banner .footer_word #banner_word6:hover + .magic6{visibility: visible;}
 
 /* About
 ==========================*/
@@ -414,17 +430,18 @@ height: auto;
 #about_banner{
   position:relative;
 }
-#about_banner .divtitle{
+#about_banner .div_about{
   position:absolute;
   z-index:10;
   top:60px;
   width:100%;
   text-align: center;
   color: #ffffff;
-  font-size: 21px; display: block;
+  font-size: 21px;
+  display: block;
   line-height: 46px;
 }
-#about_banner .divtitle font{
+#about_banner .div_about font{
   letter-spacing: 8px;
   text-indent: 8px;
   display:
@@ -477,7 +494,6 @@ height: auto;
 #about_banner .slidetxt { position:absolute; top:400px; width:100%; }
 #about_banner .swiper-slide .img{ background-position:center bottom; background-size: 100% 100%; background-repeat:no-repeat; min-height:590px;}
 #about_banner .slidetxt  ul{ padding:20px 35px; width:850px;
-  /* border-bottom:1px solid #fff; */
   padding-bottom:10px;
 }
 #about_banner .slidetxt  ul .nrul{ width:48%; margin:0 1%;  font-size:14px; float:left;}
@@ -509,7 +525,11 @@ height: auto;
   width: 100%;
 }
 
-.block {
+#contact {
+  padding: 50px 0;
+}
+
+#partners {
   padding: 50px 0;
 }
 
@@ -558,7 +578,7 @@ img.adv_pic1 {
 .advan_slider{
   margin: 0 auto;
   /* overflow:hidden; */
-  width: 70%;
+  width: 60%;    /*框框大小*/
 }
 
 img.adv_pic2 {
@@ -596,17 +616,12 @@ img #protf_bg{
   margin:0;
   z-index:2;
   left:5%;
-  margin-top: 5%
-  /* top:5%; */
+  margin-top: 5%;
 }
 
 .description_protf .headline{
   color: black;
   font-size: 38px;
-}
-
-.description_protf .line{
-  color: black;
 }
 
 

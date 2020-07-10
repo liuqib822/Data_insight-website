@@ -1,0 +1,51 @@
+{
+  "id": "1935610",
+  "name": "Data inSight",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1881568",
+      "name": "分析",
+      "font_class": "fenxi1",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "3825229",
+      "name": "数据分析",
+      "font_class": "shujufenxi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6789073",
+      "name": "成本分析",
+      "font_class": "chengbenfenxi-",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "7310568",
+      "name": "产品分析",
+      "font_class": "chanpinfenxi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "7553629",
+      "name": "经营分析",
+      "font_class": "RectangleCopy",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "15392650",
+      "name": "分析3",
+      "font_class": "fenxi3",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}
