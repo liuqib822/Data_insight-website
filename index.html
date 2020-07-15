@@ -12,8 +12,9 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
     <link href="./iconfont/iconfont.css" rel="stylesheet">
-
     <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script src="js/jquery.bxslider.js" type="text/javascript"></script>
@@ -67,6 +68,8 @@
           <div class="footer_title">
             <font>全链路数字化的解决方案</font><br><p>Solution of Full Link Digitization</p>
           </div>
+          <!-- <p id="demo">这是一个段落</p>
+          <button type="button" onclick="displayDate()">显示日期</button> -->
         </span>
     </div>
 
@@ -77,58 +80,151 @@
     		  		<font>关于栋见数云</font><br><br><p>整合供应链数据、店铺数据、营销费用数据、结算费用数据，行业数据于一体的，数据应用</p>
     		  	</span>
             <div class="footer_word">
-            <ul>
-              <li id="banner_word1"><p>行业分析<br>
-                <!-- <font>Industry<br>Analysis</font> -->
-                <span class="iconfont icon-fenxi1"></span>
-              </p></li>
-              <div class="magic1">
-                  <p><font>整合行业情况，热销店铺、热销宝贝、热销品牌和多渠道（天猫、淘宝、天猫超市、天猫国际<br>通过栋见自己对数据的见解输出整体的行业分析与变化
-                  </font></p>
+              <div class="footer_word_wrapper">
+                <ul  id=icon>
+                  <li id="banner_word1">
+                    <i class="iconfont icon-fenxi1"></i>
+                    <br><br><br>
+                    <p>行业分析<br>
+                    <font>Industry<br>Analysis</font>
+                  </p></li>
+
+                  <li id="banner_word2">
+                    <i class="iconfont icon-fenxi1"></i>
+                    <br><br><br>
+                    <p>品牌分析<br>
+                    <font>Brand<br>Analysis</font>
+                  </p></li>
+
+                  <li id="banner_word3">
+                    <span class="iconfont icon-fenxi1"></span>
+                    <br><br><br>
+                    <p>店铺分析<br>
+                    <font>Store<br>Analysis</font>
+                  </p></li>
+
+                  <li id="banner_word4">
+                    <span class="iconfont icon-fenxi1"></span>
+                    <br><br><br>
+                    <p>产品分析<br>
+                    <font>Promotion-<br>Mix Analysis</font>
+                  </p></li>
+
+                  <li id="banner_word5">
+                    <span class="iconfont icon-fenxi1"></span>
+                    <br><br><br>
+                    <p>费用分析<br>
+                    <font>Cost<br>Analysis</font>
+                  </p></li>
+
+                  <li id="banner_word6">
+                    <span class="iconfont icon-fenxi1"></span>
+                    <br><br><br>
+                    <p>风险分析<br>
+                    <font>Risk<br>Analysis</font>
+                  </p></li>
+
+                </ul>
               </div>
-              <li id="banner_word2"><p>品牌分析<br>
-                <!-- <font>Brand<br>Analysis</font> -->
-                <span class="iconfont icon-fenxi1"></span>
-              </p></li>
-              <div class="magic2">
-                  <p><font>通过栋见的整合能力，提供单个品牌多个渠道和多个店铺，统一标准，统一数据指标的分析
-                  </font></p>
-              </div>
-              <li id="banner_word3"><p>店铺分析<br>
-                <!-- <font>Store<br>Analysis</font> -->
-                <span class="iconfont icon-fenxi1"></span>
-              </p></li>
-              <div class="magic3">
-                  <p><font>基于单个店铺的订单数据和过程数据，进行整理和分析！提供店铺生意全方位洞察与见解
-                  </font></p>
-              </div>
-              <li id="banner_word4"><p>产品分析<br>
-                <!-- <font>Promotion-<br>Mix Analysis</font> -->
-                <span class="iconfont icon-fenxi1"></span>
-              </p></li>
-              <div class="magic4">
-                  <p><font>通过栋见的整合能力，把宝贝级别的数据，转化能SKU级别。提供SKU级别多维度的分析和见解
-                  </font></p>
-              </div>
-              <li id="banner_word5"><p>费用分析<br>
-                <!-- <font>Cost<br>Analysis</font> -->
-                <span class="iconfont icon-fenxi1"></span>
-              </p></li>
-              <div class="magic5">
-                  <p><font>整合店铺经营情况与营销费用和结算费用于一体的报表体系，方便监控生意的资金流动
-                  </font></p>
-              </div>
-              <li id="banner_word6"><p>风险分析<br>
-                <!-- <font>Risk<br>Analysis</font> -->
-                <span class="iconfont icon-fenxi1"></span>
-              </p></li>
-              <div class="magic6">
-                  <p><font>通过现货库存，和店铺的过往经营情况，去监控货物和资产情况（适用于供应链金融）
-                  </font></p>
-              </div>
-            </ul>
             </div>
-    	</div>
+
+            <div class="mkslidediv">
+		<div class="swiper-container">
+            <div class="swiper-wrapper">
+			<div class="swiper-slide nra">
+				  <div class="slidetxt ">
+				  	<ul class="clear width">
+				  		<div class="nrul">
+				  		<li><span>·</span>整合行业情况，热销店铺、热销宝贝、热销品牌和多渠道（天猫、淘宝、天猫超市、天猫国际</li>
+				  		<li><span>·</span>通过栋见自己对数据的见解输出整体的行业分析与变化</li>
+				  	  </div>
+				  	</ul>
+				  </div>
+	        	<!-- <div style="background-image:url(images/banner_pic/1.jpg)" class="img"></div> -->
+	             </div>
+
+	             <div class="swiper-slide nrb">
+				  <div class="slidetxt ">
+				  	<ul class="clear width">
+				  		<div class="nrul">
+				  		<li><span>·</span>全面的品牌行业报表提供品牌各行业及子行业 的销量、销售额；</li>
+				  		<li><span>·</span>品牌最热销宝贝、热销店铺一目了然；</li>
+				  	</div>
+				  		<div class="nrul">
+				  			<li><span>·</span>查看详细品牌分类，做好品牌管理。</li></div>
+				  	</ul>
+				  </div>
+          <div style="background-image:url(images/banner_pic/2.jpg)" class="img"></div>
+	             </div>
+
+	               <div class="swiper-slide nrc">
+				  <div class="slidetxt ">
+				  	<ul class="clear width">
+				  		<div class="nrul">
+				  		<li><span>·</span>通过产品关键字查找出行业中最强的竞争对手；</li>
+				  		<li><span>·</span>每天密切跟踪竞争对手、自己店铺和分销渠道等任意店铺改名、上架、调价、成交每个记录；</li>
+				  		</div>
+				  		<div class="nrul">
+				  		<li><span>·</span>查看竞争对手、自己和分销渠道等任意店铺最近、本月和上月所有宝贝销量、均价和销售额；</li>
+				  		<li><span>·</span>通过分析找到新的、最好的分销渠道；</li>
+				  		</div>
+				  	</ul>
+				  </div>
+          <div style="background-image:url(images/banner_pic/3.jpg)" class="img"></div>
+	             </div>
+
+	             <div class="swiper-slide nrd">
+				  <div class="slidetxt ">
+				  	<ul class="clear width">
+				  		<div class="nrul">
+				  		<li><span>·</span>轻松查找销量飙升的店铺；</li>
+				  		<li><span>·</span>店铺销量飙升当天的每个宝贝的销量及营销方法及广告方法一目了然；</li>
+				  		</div>
+				  		<div class="nrul">
+				  		<li><span>·</span>店铺每一天的销量及所有营销方法（降价/改名）及广告方法一目了然；</li>
+				  		<li><span>·</span>飙升宝贝每一天的销量及营销方法一目了然；</li>
+				  		</div>
+				  	</ul>
+				  </div>
+          <div style="background-image:url(images/banner_pic/4.jpg)" class="img"></div>
+	             </div>
+
+	             <div class="swiper-slide nre">
+				  <div class="slidetxt ">
+				  	<ul class="clear width">
+				  		<div class="nrul">
+				  		<li><span>·</span>按宝贝名关键字查找出行业中最热销的各种宝贝； </li>
+				  		<li><span>·</span>将宝贝归属到某一自定义的产品，也可以跟踪每个热销宝贝最近/本月/上月的价格、销量变化数据和趋势图；</li>
+				  		</div>
+				  		<div class="nrul">
+				  		<li><span>·</span>按宝贝属性关键字查找出行业中的最热销的宝贝；</li>
+				  		<li><span>·</span>轻松地追踪所关注宝贝的调价、改名、成交情况，并能对代理商进行有效地管理； </li>
+				  		 </div>
+				  	</ul>
+				  </div>
+          <div style="background-image:url(images/banner_pic/5.jpg)" class="img"></div>
+	             </div>
+
+	              <div class="swiper-slide nrf">
+				  <div class="slidetxt ">
+				  	<ul class="clear width">
+
+				  		<div class="nrul">
+				  		<li><span>·</span>查看各钻展广告位形式，选取目标钻展位，点击查看详情。 </li>
+				  		 </div>
+				  		 <div class="nrul">
+				  		<li><span>·</span> 查看广告位具体画面图片、日期、投放分布、投放期间销售额。</li>
+				  		   </div>
+
+				  	</ul>
+				  </div>
+          <div style="background-image:url(images/banner_pic/11.jpg)" class="img"></div>
+	             </div>
+
+            </div>
+        </div>
+		  	</div>
+
     </div>
 
     <!-- start 我们的优势 -->
@@ -287,6 +383,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.dlmenu.js"></script>
     <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/jquery.ajax-contact-form.js"></script>

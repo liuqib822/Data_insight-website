@@ -1,6 +1,6 @@
-	  
-$(document).ready(function() {          
-     
+
+$(document).ready(function() {
+
     /* Responsive Menu */
     $('#dl-menu').dlmenu({
           animationClasses: {
@@ -16,19 +16,19 @@ $(document).ready(function() {
         visibleItems: 4,
         animationSpeed: 500,
         autoPlay: true,
-        autoPlaySpeed: 3000,            
+        autoPlaySpeed: 3000,
         pauseOnHover: true,
         enableResponsiveBreakpoints: true,
-        responsiveBreakpoints: { 
-            portrait: { 
+        responsiveBreakpoints: {
+            portrait: {
                 changePoint:480,
                 visibleItems: 1
-            }, 
-            landscape: { 
+            },
+            landscape: {
                 changePoint:640,
                 visibleItems: 2
             },
-            tablet: { 
+            tablet: {
                 changePoint:768,
                 visibleItems: 3
             }
@@ -39,31 +39,31 @@ $(document).ready(function() {
         visibleItems: 5,
         animationSpeed: 500,
         autoPlay: false,
-        autoPlaySpeed: 3000,            
+        autoPlaySpeed: 3000,
         pauseOnHover: true,
         enableResponsiveBreakpoints: true,
-        responsiveBreakpoints: { 
-            portrait: { 
+        responsiveBreakpoints: {
+            portrait: {
                 changePoint:480,
                 visibleItems: 1
-            }, 
-            landscape: { 
+            },
+            landscape: {
                 changePoint:640,
                 visibleItems: 2
             },
-            tablet: { 
+            tablet: {
                 changePoint:768,
                 visibleItems: 3
             }
         }
     });
-	
-	   
-	$("a[data-gal^='prettyPhoto']").prettyPhoto();
-		
 
-	// Google map	
-    if($('#map_canvas').length > 0){	
+
+	$("a[data-gal^='prettyPhoto']").prettyPhoto();
+
+
+	// Google map
+    if($('#map_canvas').length > 0){
         $('#map_canvas').gMap({
 			                maptype: 'ROADMAP',
 						    scrollwheel: false,
@@ -87,15 +87,44 @@ $(document).ready(function() {
 					scrollTop: 0
 				}, 700);
 			});
-			
+
 	$(window)
 			.on('scroll', function() {
 				if ($(this).scrollTop() > 200)
 					$('.btntoTop').addClass('active');
 				else
 					$('.btntoTop').removeClass('active');
-			});		
-            
-     $('.bxslider').bxSlider();	
+			});
+
+     $('.bxslider').bxSlider();
 });
 
+/*----------------------------------------------------*/
+/*	Yoink!
+/*----------------------------------------------------*/
+function displayDate(){
+	document.getElementById("demo").innerHTML=Date();
+}
+
+function myfun(){
+	document.getElementById("demo").innerHTML=Date();
+}
+
+window.onload = function(){
+
+var mkIndex = new Swiper('.swiper-container', {
+			 loop: false,
+			 autoplay:8000,
+	 	 	 onlyExternal : true,
+	 });
+
+ //icon点击切换
+ $('#icon li').hover(function(){
+		if(!$(this).hasClass('active')){
+			 $('#icon li').removeClass('active');
+			 $(this).addClass('active');
+			 mkIndex.slideTo($(this).index(), 300, false);//切换到第一个slide
+		}
+	 },function(){
+		 });
+}
