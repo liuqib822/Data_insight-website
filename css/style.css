@@ -409,7 +409,7 @@ nav.sticky ul li a:before { content: '' }
   color: white;
   float: left;;
   z-index: 15;
-  margin-left: 35%;
+  margin-left: 30%;
 }
 
 #about_banner .footer_word{
@@ -446,38 +446,6 @@ nav.sticky ul li a:before { content: '' }
   font-size: 20px;
 }
 
-/* #about_banner .magic1 font{font-size: 20px; color: white;}
-#about_banner .magic2 font{font-size: 20px; color: white;}
-#about_banner .magic3 font{font-size: 20px; color: white;}
-#about_banner .magic4 font{font-size: 20px; color: white;}
-#about_banner .magic5 font{font-size: 20px; color: white;}
-#about_banner .magic6 font{font-size: 20px; color: white;}
-
-#about_banner .magic1{  position: absolute;  margin-top: 15%; border-style: solid; padding: 20px; visibility: hidden;}
-#about_banner .magic2{  position: absolute;  margin-top: 15%; border-style: solid; padding: 20px; visibility: hidden;}
-#about_banner .magic3{  position: absolute;  margin-top: 15%; border-style: solid; padding: 20px; visibility: hidden;}
-#about_banner .magic4{  position: absolute;  margin-top: 15%; border-style: solid; padding: 20px; visibility: hidden;}
-#about_banner .magic5{  position: absolute;  margin-top: 15%; border-style: solid; padding: 20px; visibility: hidden;}
-#about_banner .magic6{  position: absolute;  margin-top: 15%; border-style: solid; padding: 20px; visibility: hidden;}
-
-#about_banner .footer_word #banner_word1:hover + .magic1{visibility: visible;}
-#about_banner .footer_word #banner_word1:hover {color: red;}
-
-#about_banner .footer_word #banner_word2:hover + .magic2{visibility: visible;}
-#about_banner .footer_word #banner_word2:hover {color: red;}
-
-#about_banner .footer_word #banner_word3:hover + .magic3{visibility: visible;}
-#about_banner .footer_word #banner_word3:hover {color: red;}
-
-#about_banner .footer_word #banner_word4:hover + .magic4{visibility: visible;}
-#about_banner .footer_word #banner_word4:hover {color: red;}
-
-#about_banner .footer_word #banner_word5:hover + .magic5{visibility: visible;}
-#about_banner .footer_word #banner_word5:hover {color: red;}
-
-#about_banner .footer_word #banner_word6:hover + .magic6{visibility: visible;}
-#about_banner .footer_word #banner_word6:hover {color: red;} */
-
 #about_banner .mkslidediv{  position: absolute;  width: 100%;  height: 300px;  top:50%;}
 #about_banner .swiper-container{  position: absolute;  width: 100%;  height: 300px;}
 
@@ -487,23 +455,27 @@ nav.sticky ul li a:before { content: '' }
 /* #about_banner .footer_word ul li span{ background:url(images/banner_pic/11.jpg) no-repeat; display:block; width:62px; height:62px; margin:0 auto; margin-bottom:15px;} */
  #about_banner .footer_word #banner_word1:hover p{color: red;}
  #about_banner .footer_word #banner_word2:hover p{color: red;}
+ #about_banner .footer_word #banner_word3:hover p{color: red;}
+ #about_banner .footer_word #banner_word4:hover p{color: red;}
+ #about_banner .footer_word #banner_word5:hover p{color: red;}
+ #about_banner .footer_word #banner_word6:hover p{color: red;}
 
 
-#about_banner .footer_word #banner_word1:hover i,#about_banner .footer_word #banner_word1.active i{ background-position:0px -100px;}
+/* #about_banner .footer_word #banner_word1:hover i,#about_banner .footer_word #banner_word1.active i{ background-position:0px -100px;}
 #about_banner .footer_word #banner_word2 i{ background-position:-168px top;}
-#about_banner .footer_word #banner_word2:hover i,#about_banner .footer_word #banner_word2.active i{ background-position:-168px -100px;}
+#about_banner .footer_word #banner_word2:hover i,#about_banner .footer_word #banner_word2.active i{ background-position:0px -100px;}
 #about_banner .footer_word #banner_word3 i{ background-position:-337px top;}
-#about_banner .footer_word #banner_word3:hover i,#about_banner .footer_word #banner_word3.active i{ background-position:-337px -100px;}
+#about_banner .footer_word #banner_word3:hover i,#about_banner .footer_word #banner_word3.active i{ background-position:0px -100px;}
 #about_banner .footer_word #banner_word4 i{ background-position:-506px top;}
-#about_banner .footer_word #banner_word4:hover i,#about_banner .footer_word #banner_word4.active i{ background-position:-506px -100px;}
+#about_banner .footer_word #banner_word4:hover i,#about_banner .footer_word #banner_word4.active i{ background-position:0px -100px;}
 #about_banner .footer_word #banner_word5 i{ background-position:-674px top;}
-#about_banner .footer_word #banner_word5:hover i,#about_banner .footer_word #banner_word5.active i{ background-position:-674px -100px;}
+#about_banner .footer_word #banner_word5:hover i,#about_banner .footer_word #banner_word5.active i{ background-position:0px -100px;}
 #about_banner .footer_word #banner_word6 i{ background-position:-842px top;}
-#about_banner .footer_word #banner_word6{ background:none;}
+#about_banner .footer_word #banner_word6{ background:none;} */
 #about_banner .footer_word #banner_word6:hover i,#about_banner .footer_word #banner_word6.active i{ background-position:-842px -100px;}
 #about_banner .footer_word ul li p{ font-size:16px; color:#fff; line-height:20px; display:block; text-align:center; height:62px;}
 #about_banner .footer_word ul li p font{ font-size: 14px; text-transform: uppercase; }
-#about_banner .footer_word ul li span{ width:1px; margin:0 auto; margin-top:20px; height:32px;}
+/* #about_banner .footer_word ul li span{ width:1px; margin:0 auto; margin-top:20px; height:32px;} */
 #about_banner .footer_word ul  li.active span{ display:block ;}
 
 #about_banner .slidetxt  { position:absolute;
@@ -512,22 +484,28 @@ nav.sticky ul li a:before { content: '' }
   width:100%; }
 #about_banner .swiper-slide .img{ background-position:center bottom; background-size: 100% 100%; background-repeat:no-repeat; min-height:590px;}
 #about_banner .slidetxt  ul{ padding:20px 35px; width:850px;   border-bottom:1px solid #fff;padding-bottom:10px;}
-#about_banner .slidetxt  ul .nrul{ width:48%; margin:0 1%;  font-size:14px; float:left;}
+#about_banner .slidetxt  ul .nrul{ width:100%; margin:0 auto; font-size:20px;
+  /* float:left; */
+}
 #about_banner .slidetxt  ul .nrul li{ display:block;color:#fff; margin-bottom:10px; text-align:left; position:relative; padding-left:8px;}
 #about_banner .slidetxt  ul .nrul li span{ display:inline-block; margin-right:3px; vertical-align:top; position:absolute; top:1px; left:0;}
 
 #about_banner  .swiper-slide.nra .slidetxt  ul{ border:1px solid #19cbff;}
-#about_banner .footer_word #banner_word1 i{ background:#19cbff;}
+/* #about_banner .footer_word #banner_word1 span{ background:#19cbff;} */
 #about_banner  .swiper-slide.nrb .slidetxt  ul{ border:1px solid #00e9c2;}
-#about_banner .footer_word #banner_word2 i{ background:#00e9c2;}
+/* #about_banner .footer_word #banner_word2 span{ background:#00e9c2;} */
 #about_banner  .swiper-slide.nrc .slidetxt  ul{ border:1px solid #ffae00;}
-#about_banner .footer_word #banner_word3 span{ background: #ffae00;}
+/* #about_banner .footer_word #banner_word3 span{ background: #ffae00;} */
 #about_banner  .swiper-slide.nrd .slidetxt  ul{ border:1px solid #6df400;}
-#about_banner .footer_word #banner_word4 span{ background:#6df400;}
+/* #about_banner .footer_word #banner_word4 span{ background:#6df400;} */
 #about_banner  .swiper-slide.nre .slidetxt  ul{ border:1px solid #fff000;}
-#about_banner .footer_word #banner_word5 span{ background:#fff000;}
+/* #about_banner .footer_word #banner_word5 span{ background:#fff000;} */
 #about_banner  .swiper-slide.nrf .slidetxt  ul{ border:1px solid #e70098;}
-#about_banner .footer_word #banner_word6 span{ background:#e70098;}
+/* #about_banner .footer_word #banner_word6 span{
+  background:#e70098;
+  position:absolute;
+  top:30%;
+} */
 
 /* Page banner
 ==========================*/
