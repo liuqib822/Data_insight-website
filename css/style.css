@@ -545,7 +545,7 @@ nav.sticky ul li a:before { content: '' }
 
 img.adv_pic1 {
   width: 100%;
-  height: 800px;
+  height: 1000px;
   object-fit: cover;
   position: relative;
   margin-bottom: 0;
@@ -591,15 +591,13 @@ img.advan_pic_only{
 
 
 .adv_title{
-  margin-bottom: 4%;
-  height: 20%;
   font-size: 36px;
   color: grey;
 }
 
 #adv_1{
   width: 60%;
-  margin: 5%;
+  margin: 2%;
   margin-left: 2%;
 }
 
@@ -627,10 +625,19 @@ img.advan_pic_only{
   margin-top: 20%;
 }
 
-#adv_2 li {
+#adv_2 > li {
   float: left;
   width: 33.3%;
   padding-bottom: 5%;
+}
+
+#adv_2 > li > img {
+  width: 25%;
+  height: auto;
+}
+
+#adv_2 > li > img:hover {
+  transform: scale(1.2);
 }
 
 #adv_2 span {
@@ -735,9 +742,8 @@ img.advan_pic_only{
 
 .port_div > img{
   float: left;
-  width: 40%;
-  height: auto;
-  margin-top: 5%;
+  height: 70%;
+  margin-top: 50px;
   margin-left: 3%;
   margin-right: 3%;
 }
