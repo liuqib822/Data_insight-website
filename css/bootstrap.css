@@ -6003,6 +6003,7 @@ body.modal-open,
 .carousel-inner {
   position: relative;
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -6016,7 +6017,7 @@ body.modal-open,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  height: auto;
+  height: 560px;
   max-width: 100%;
   line-height: 1;
 }
@@ -6129,7 +6130,7 @@ body.modal-open,
   content: '\203a';
 }
 
-.carousel-indicators {
+.carousel-indicators1 {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -6141,7 +6142,7 @@ body.modal-open,
   list-style: none;
 }
 
-.carousel-indicators li {
+.carousel-indicators1 li {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -6152,7 +6153,7 @@ body.modal-open,
   border-radius: 10px;
 }
 
-.carousel-indicators .active {
+.carousel-indicators1 .active {
   width: 12px;
   height: 12px;
   margin: 0;
@@ -6165,8 +6166,8 @@ body.modal-open,
   bottom: 20px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  padding-bottom: 20%;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -6190,7 +6191,7 @@ body.modal-open,
     left: 20%;
     padding-bottom: 30px;
   }
-  .carousel-indicators {
+  .carousel-indicators1 {
     bottom: 20px;
   }
 }
