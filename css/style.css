@@ -14,7 +14,8 @@ html, body {
 body {
   color: #4C4F55;
   font-family: "Open Sans",sans-serif;
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
+  font-size: 10px;
   line-height: 1.5;
 }
 
@@ -65,7 +66,7 @@ h3 small {
 }
 .line .sub-line {
   display: block;
-  border: 2px solid #ffc400;
+  border: 2px solid #3caf96;
   margin-bottom: -1px;
   width: 51px;
 }
@@ -205,12 +206,11 @@ ul {
 .logo a {
   float: left;
   display: block;
-
   color: #FFFFFF !important;
   font-family: "Open Sans",sans-serif;
   font-size: 2.5em;
   font-weight: bold;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   margin-bottom: inherit;
   right: 45%;
   top: 50%;
@@ -356,6 +356,7 @@ nav.sticky ul li a:before { content: '' }
   font-size: 5.0em;
 }
 #banner .divtitle p{
+  letter-spacing: 8px;
   font-size: 3.0em;
 }
 
@@ -386,7 +387,6 @@ nav.sticky ul li a:before { content: '' }
   width:100%;
   text-align: center;
   color: #ffffff;
-  font-size: 2.1em;
   display: block;
   line-height: 46px;
 }
@@ -395,7 +395,7 @@ nav.sticky ul li a:before { content: '' }
   text-indent: 8px;
   display:
   inline-block;
-  font-size: 3.0em;
+  font-size: 5.0em;
 }
 #about_banner .div_about p{
   letter-spacing: 8px;
@@ -403,8 +403,8 @@ nav.sticky ul li a:before { content: '' }
   width: 60%;
   margin-bottom: 5%;
   margin:  auto;
-  inline-block;
-  font-size: 1.1em;
+  display: inline-block;
+  font-size: 3.0em;
 }
 
 #about_banner .iconfont{
@@ -412,7 +412,7 @@ nav.sticky ul li a:before { content: '' }
   color: white;
   float: left;
   z-index: 15;
-  margin-left: 40%;
+  margin-left: 44%;
 }
 
 #about_banner .footer_word{
@@ -452,10 +452,6 @@ nav.sticky ul li a:before { content: '' }
 #about_banner .mkslidediv{  position: absolute;  width: 100%;  height: 300px;  top:50%;}
 #about_banner .swiper-container{  position: absolute;  width: 100%;  height: 300px;}
 
-/* #about_banner .footer_word{ position:absolute; width:100%; top:190px; z-index:10;} */
-/* #about_banner .footer_word ul{ margin:0 -4%;} */
-/* #about_banner .footer_word ul li{ float:left; padding-right:1%; width:15.666%; cursor:pointer;background:url(../images/jt.png) right 24px no-repeat;} */
-/* #about_banner .footer_word ul li span{ background:url(images/banner_pic/11.jpg) no-repeat; display:block; width:62px; height:62px; margin:0 auto; margin-bottom:15px;} */
  #about_banner .footer_word #banner_word1:hover p{color: #3caf96;}
  #about_banner .footer_word #banner_word2:hover p{color: #3caf96;}
  #about_banner .footer_word #banner_word3:hover p{color: #3caf96;}
@@ -463,22 +459,9 @@ nav.sticky ul li a:before { content: '' }
  #about_banner .footer_word #banner_word5:hover p{color: #3caf96;}
  #about_banner .footer_word #banner_word6:hover p{color: #3caf96;}
 
-
-/* #about_banner .footer_word #banner_word1:hover i,#about_banner .footer_word #banner_word1.active i{ background-position:0px -100px;}
-#about_banner .footer_word #banner_word2 i{ background-position:-168px top;}
-#about_banner .footer_word #banner_word2:hover i,#about_banner .footer_word #banner_word2.active i{ background-position:0px -100px;}
-#about_banner .footer_word #banner_word3 i{ background-position:-337px top;}
-#about_banner .footer_word #banner_word3:hover i,#about_banner .footer_word #banner_word3.active i{ background-position:0px -100px;}
-#about_banner .footer_word #banner_word4 i{ background-position:-506px top;}
-#about_banner .footer_word #banner_word4:hover i,#about_banner .footer_word #banner_word4.active i{ background-position:0px -100px;}
-#about_banner .footer_word #banner_word5 i{ background-position:-674px top;}
-#about_banner .footer_word #banner_word5:hover i,#about_banner .footer_word #banner_word5.active i{ background-position:0px -100px;}
-#about_banner .footer_word #banner_word6 i{ background-position:-842px top;}
-#about_banner .footer_word #banner_word6{ background:none;} */
 #about_banner .footer_word #banner_word6:hover i,#about_banner .footer_word #banner_word6.active i{ background-position:-842px -100px;}
 #about_banner .footer_word ul li p{ font-size:1.6em; color:#fff; line-height:20px; display:block; text-align:center; height:62px;}
 #about_banner .footer_word ul li p font{ font-size: 1.0em; text-transform: uppercase; }
-/* #about_banner .footer_word ul li span{ width:1px; margin:0 auto; margin-top:20px; height:32px;} */
 #about_banner .footer_word ul  li.active span{ display:block ;}
 
 #about_banner .slidetxt  {
@@ -545,6 +528,8 @@ nav.sticky ul li a:before { content: '' }
 ==========================*/
 .content{
   height: auto;
+  overflow:scroll;
+
 }
 
 #advan{
@@ -575,7 +560,8 @@ img.adv_pic1 {
 
 .description_advan .headline{
   color: white;
-  font-size: 4em;
+  font-size: 5.0em;
+  letter-spacing: 8px;
 }
 
 .description_advan .col-md-12{
@@ -604,7 +590,7 @@ img.advan_pic_only{
 
 .adv_title{
   font-size: 3.9em;
-  color: grey;
+  color: white;
 }
 
 #adv_1{
@@ -642,6 +628,7 @@ img.advan_pic_only{
   float: left;
   width: 33.3%;
   padding-bottom: 5%;
+  margin-top: 3%
 }
 
 #adv_2 > li > img{
@@ -736,7 +723,8 @@ img.advan_pic_only{
 
 .description_protf .headline{
   color: white;
-  font-size: 4em;
+  font-size: 5.0em;
+  letter-spacing: 8px;
 }
 
 .port_div {

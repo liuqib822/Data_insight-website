@@ -102,14 +102,6 @@ $(document).ready(function() {
 /*----------------------------------------------------*/
 /*	Yoink!
 /*----------------------------------------------------*/
-function displayDate(){
-	document.getElementById("demo").innerHTML=Date();
-}
-
-function myfun(){
-	document.getElementById("demo").innerHTML=Date();
-}
-
 window.onload = function(){
 
 var mkIndex = new Swiper('.swiper-container', {
