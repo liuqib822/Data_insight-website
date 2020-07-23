@@ -325,18 +325,19 @@ nav.sticky ul li a:before { content: '' }
 #banner{
   width: 100%;
   height: 75%;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 0;
-  /* width:auto;
-  height: auto; */
+  position:absolute;
+  z-index:1;
+  top:0;
 }
 
-#banner_pic{
+/* #banner_pic{
   width: 100%;
   height: 850px;
   object-fit: cover;
   display: block；
-}
+} */
 
 #banner .divtitle{
   position:absolute;
@@ -371,22 +372,28 @@ nav.sticky ul li a:before { content: '' }
 /* About
 ==========================*/
 #about_banner{
-  position:relative;
+  width: 100%;
+  height: 75%;
+  margin-bottom: 0;
+  position:absolute;
+  z-index:1;
+  top:800px;
 }
 
-#about_pic1 {
+/* #about_pic1 {
   width: 100%;
   height: 1000px;
   object-fit: cover;
   position: relative;
   margin-bottom: 0;
   background-repeat:repeat-x;
-}
+} */
 
 #about_banner .div_about{
   position:absolute;
   z-index:10;
-  top:60px;
+  /* top:60px; */
+  margin-top: 5%;
   width:100%;
   text-align: center;
   color: #ffffff;
@@ -419,9 +426,9 @@ nav.sticky ul li a:before { content: '' }
 }
 
 #about_banner .footer_word{
-  position: absolute;
+  position: relative;
   z-index:10;
-  top:30%;
+  top:38%;
   text-align: justify;
   float: left;
   display:block;
@@ -452,7 +459,7 @@ nav.sticky ul li a:before { content: '' }
   font-size: 1.0em;
 }
 
-#about_banner .mkslidediv{  position: absolute;  width: 100%;  height: 300px;  top:50%;}
+#about_banner .mkslidediv{  position: absolute;  width: 100%;  height: 300px;  top:68%;}
 #about_banner .swiper-container{  position: absolute;  width: 100%;  height: 300px;}
 
  #about_banner .footer_word #banner_word1:hover p{color: #3caf96;}
@@ -538,9 +545,10 @@ nav.sticky ul li a:before { content: '' }
 #advan{
   width: 100%;
   height: 75%;
-  position: relative;
-  height: auto;
-  z-index: 1;
+  margin-bottom: 0;
+  position:absolute;
+  z-index:12;
+  top:1800px;
 }
 
 img.adv_pic1 {
@@ -558,7 +566,7 @@ img.adv_pic1 {
   margin:0;
   z-index:1;
   left:5%;
-  top:5%;
+  margin-top: 5%
 }
 
 .description_advan .headline{
@@ -702,10 +710,15 @@ img.advan_pic_only{
 /* Portfolio
 ==========================*/
 #portfolio{
-  width: 100%;
+  /* width: 100%;
   height: 1000px;
   position: relative;
-  z-index: 1;
+  z-index: 1; */
+  width: 100%;
+  height: 75%;
+  position:absolute;
+  z-index:12;
+  top:2800px;
 }
 
 #protf_bg{
