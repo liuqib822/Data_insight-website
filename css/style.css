@@ -327,8 +327,8 @@ nav.sticky ul li a:before { content: '' }
   height: 75%;
   position: relative;
   margin-bottom: 0;
-  width:auto;
-  height: auto;
+  /* width:auto;
+  height: auto; */
 }
 
 #banner_pic{
@@ -347,7 +347,10 @@ nav.sticky ul li a:before { content: '' }
   color: #ffffff;
   display: block;
   line-height: 46px;
-  height: 80%;
+  /* height: 80%; */
+
+  height: 850px;
+  object-fit: cover;
 }
 #banner .divtitle font{
   letter-spacing: 8px;
